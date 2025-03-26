@@ -1,21 +1,13 @@
 #ignore all files below
+# Ignore cache and compiled files
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-*.so # Shared object files sometimes created
-/.ipynb_checkpoints/
-/.vscode/
-/synthetic_data/
-/surrogate_models/
-/venv/
-/env/
-/.venv/
-/ENV/
-/env.bak/
-/venv.bak/
+
+# Ignore surrogate models and synthetic data
+surrogate_models/
+synthetic_data/
+
+# Ignore other common files
 *.log
-*.tmp
-*.bak
-*.patch
-*.diff
+.DS_Store

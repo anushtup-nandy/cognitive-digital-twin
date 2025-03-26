@@ -1,0 +1,6 @@
+#ignore all files below
+./__pycache__
+./.ipynb_checkpoints
+./.vscode
+./synthetic_data
+# ./surrogate_models
